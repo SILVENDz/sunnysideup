@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://d2b7txel3m4a0"]
+
+[ext_resource type="Script" uid="uid://c0xkwryene1qp" path="res://title_screen.gd" id="1_ig5kc"]
+[ext_resource type="Texture2D" uid="uid://cybn8f75hq5nm" path="res://title.png" id="1_v6p8y"]
+[ext_resource type="Texture2D" uid="uid://ckpay1fbuavxt" path="res://Shift.png" id="2_ak2if"]
+[ext_resource type="PackedScene" uid="uid://gyuv7m0i6qwd" path="res://transition.tscn" id="4_05l2w"]
+
+[node name="Title Screen" type="Control" unique_id=40538098]
+layout_mode = 3
+anchor_right = 1.7800001
+anchor_bottom = 2.3660002
+offset_right = -895.56006
+offset_bottom = -883.1681
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ig5kc")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=505313787]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.12207792
+anchor_top = -0.0046153846
+anchor_right = 0.8712842
+anchor_bottom = 0.9938462
+offset_right = 6.1035156e-05
+texture = ExtResource("1_v6p8y")
+expand_mode = 1
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="." unique_id=705760809]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.012987013
+anchor_top = -0.18461539
+anchor_right = 1.0412154
+anchor_bottom = 1.1
+offset_right = -0.00012207031
+theme_override_colors/font_color = Color(0.18426535, 0.47972852, 0.5643582, 1)
+icon = ExtResource("2_ak2if")
+flat = true
+expand_icon = true
+metadata/_edit_use_anchors_ = true
+
+[node name="transition" parent="." unique_id=1877700813 instance=ExtResource("4_05l2w")]
