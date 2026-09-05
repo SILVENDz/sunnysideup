@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bscdibqll5xyl"]
+
+[ext_resource type="Texture2D" uid="uid://gg864kleyb4t" path="res://Untitled47_20260830191727.png" id="1_hgi8f"]
+[ext_resource type="Script" uid="uid://b54u5vdsjsqii" path="res://win.gd" id="1_tmki8"]
+[ext_resource type="Texture2D" uid="uid://bmbht0awu25ee" path="res://Untitled47_20260904225029.png" id="3_tmki8"]
+
+[node name="win" type="Node2D" unique_id=1260032031]
+script = ExtResource("1_tmki8")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1429223070]
+offset_left = 138.66672
+offset_top = 0.49993896
+offset_right = 1001.3334
+offset_bottom = 647.49994
+texture = ExtResource("1_hgi8f")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Yap" type="Sprite2D" parent="." unique_id=362216374]
+position = Vector2(569.00006, 323.00003)
+scale = Vector2(0.46940103, 0.46940103)
+texture = ExtResource("3_tmki8")

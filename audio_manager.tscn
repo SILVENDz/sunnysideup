@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://m0h65ye3g3ks"]
+
+[ext_resource type="AudioStream" uid="uid://dbso4peqif07s" path="res://prettyjohn1-summer-500586.mp3" id="1_jisk1"]
+
+[node name="audio_manager" type="Node2D" unique_id=907043814]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1624258239]
+stream = ExtResource("1_jisk1")
+autoplay = true
